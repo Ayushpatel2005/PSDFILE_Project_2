@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-transform: capitalize;
+}
+.navbar{
+    height: auto;
+    width: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nav-item ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-item ul >li{
+    list-style:none;
+}
+.nav-item ul li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 29px;
+}
+.nav-item ul > li:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 5px;
+}
+.lock{
+    display: flex;
+    justify-content: center;
+}
+.fa-solid {
+   font-size: xx-large; 
+}
+
+.search{
+    height: 30px;
+    display: flex;
+    border: 6px solid transparent;
+}
+.search > input{
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+}
+.search-icon{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.section-one{
+    height: auto;
+    width: auto;
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 90px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.section-one-1{
+    margin-left: 92px;
+}
+.First1{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.First2{
+    font-size: 29px;
+    /* margin-top: 90px;  */
+}
+ .contact, .ourservice{
+    margin-top: 90px;
+    margin-left: 20px;
+    width: 182px;
+    height: 69px;
+    border-radius: 7px;
+    background-color: #00bec9;
+    font-size: 29px;
+
+}
+.contact:hover,
+.ourservice:hover,
+.section-four-two >button:hover,
+.five-detail > button:hover{
+    background-color: black;
+    color: red;
+}
+.ap{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.ayu{
+    height: 50px;
+    width: 150px;
+    background-color: green;
+    margin-top: 10px;
+}
+.ayush{
+    display: inline-flex;
+    gap: 90px;
+}
